@@ -19,6 +19,15 @@ y = f(10)
 print(y)
 
 
+def multi_params(string, float, boolean):
+    print(type(string))
+    print(type(float))
+    print(type(boolean))
+
+
+multi_params('123', 10.4, False)
+
+
 def return_none():
     x = 10
     y = 11
