@@ -1,0 +1,8 @@
+print('\nVi du list() va tuple()')
+days_of_week = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
+days_of_week = list(days_of_week)
+print(days_of_week)
+print(type(days_of_week))
+days_of_week = tuple(days_of_week)
+print(days_of_week)
+print(type(days_of_week))
